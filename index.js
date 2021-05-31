@@ -4,7 +4,7 @@ const port = 3000;
 
 
 const Sequelize = require('sequelize')
-const sequelize = new Sequelize('postgres://root:pass123@10.42.68.110:5432/insightsdb',
+const sequelize = new Sequelize('postgres://root:pass123@localhost:5432/insightsdb',
     {
         dialect: 'postgres',
         protocol: 'postgres',
